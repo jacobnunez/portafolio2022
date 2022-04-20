@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DiseniadorComponent } from './diseniador.component';
+import { DisenadorComponent } from './disenador.component';
 
-describe('DiseniadorComponent', () => {
-  let component: DiseniadorComponent;
-  let fixture: ComponentFixture<DiseniadorComponent>;
+describe('DisenadorComponent', () => {
+  let component: DisenadorComponent;
+  let fixture: ComponentFixture<DisenadorComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DiseniadorComponent ]
+      declarations: [ DisenadorComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DiseniadorComponent);
+    fixture = TestBed.createComponent(DisenadorComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

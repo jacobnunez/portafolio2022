@@ -6,6 +6,7 @@ import { SharedModule } from '../shared/shared.module';
 import { AdministradorComponent } from './administrador.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
+//Prueba 
 
 @NgModule({
   declarations: [
